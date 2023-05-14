@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table td,th{padding: 10px;}
+    </style>
+</head>
+
+<body>
+    <form action="">
+
+        <h1>Market Research Survey</h1>
+        <p>Please take a few moments to complete this saatisfaction survey</p>
+
+        <h3>What is your age range?</h3>
+
+        <p class="age">
+            <select name="age" id="age-pick">
+                <option value="18-24">18-24</option>
+                <option value="25-34">25-34</option>
+                <option value="35-50">25-50</option>
+                <option value="+50">+50</option>
+            </select>
+        </p>
+
+        <h3>What is your yearly income range?</h3>
+
+        <p class="income">
+            <select name="income" id="income-pick">
+                <option value="$0 - $25,000">$0 - $25,000</option>
+                <option value="$25,001 - $50,000">$25,001 - $50,000</option>
+                <option value="$50,001 - $100,000">$50,001 - $100,000</option>
+                <option value="$100,000+">$100,000+</option>
+            </select>
+        </p>
+
+        <h3>Gender</h3>
+
+        <td><input type="radio" name="gender" id="male">Male</td>
+        <td><input type="radio" name="gender" id="female">Female</td>
+
+        <h3>Which of the following products have your purchased in the last 2 months. Please check all that apply</h3>
+        <p><input type="checkbox" name="product1" id="">Product 1</p>
+
+        <p><input type="checkbox" name="product2" id="">Product 2</p>
+
+
+        <p><input type="checkbox" name="product3" id="">Product 3</p>
+
+        <h3>How often would you use new product?</h3>
+
+        <p><input type="radio" name="day" id="day">Daily</p>
+
+        <p><input type="radio" name="day" id="day">Weekly</p>
+
+        <p><input type="radio" name="day" id="day">Monthly</p>
+
+        <h3>What would you pay for the new product?</h3>
+        <p>$ <input type="number" name="money" id="dollars" value="dollars">Dollars. <input type="number" name="money" id="cents" value="cents">Cents</p>
+        <h3>What features would you like to see in the new product</h3>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <p>Please rate your level of agreement with the following statements</p>
+        <table border="1" style="border-collapse: collapse;text-align: center;">
+            <tbody >
+                <tr style="background-color: rgb(159, 159, 159);">
+                    <th></th>
+                    <th>Strongly Disagree</th>
+                    <th>Disagree</th>
+                    <th>Agree</th>
+                    <th>Strongly Agree</th>
+                </tr>
+                <tr>
+                    <th>Our products are priced fairly</th>
+                    <td><input type="radio" name="fairly" id="fairly">1</td>
+                    <td><input type="radio" name="fairly" id="fairly">2</td>
+                    <td><input type="radio" name="fairly" id="fairly">3</td>
+                    <td><input type="radio" name="fairly" id="fairly">4</td>
+                </tr>
+                <tr style="background-color: rgb(230, 230, 230);">
+                    <th>Our products are high quality</th>
+                    <td><input type="radio" name="quality" id="quality">1</td>
+                    <td><input type="radio" name="quality" id="quality">2</td>
+                    <td><input type="radio" name="quality" id="quality">3</td>
+                    <td><input type="radio" name="quality" id="quality">4</td>
+                </tr>
+                <tr>
+                    <th>You would recommend our product to a friend or coworker</th>
+                    <td><input type="radio" name="coworker" id="coworker">1</td>
+                    <td><input type="radio" name="coworker" id="coworker">2</td>
+                    <td><input type="radio" name="coworker" id="coworker">3</td>
+                    <td><input type="radio" name="coworker" id="coworker">4</td>
+                </tr>
+            </tbody>
+        </table>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
