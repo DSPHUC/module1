@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        #num1 {
+            width: 180px;
+            ;
+        }
+
+        #num2 {
+            width: 190px;
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="2"><input type="number" id="num1" placeholder="number 1"></td>
+                <td colspan="2"><input type="number" id="num2" placeholder="number 2"></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="add()">Addition (+)</button></td>
+                <td><button type="button" onclick="sub()">Subtraction (-)</button></td>
+                <td><button type="button" onclick="mult()">Multiplication (X)</button></td>
+                <td><button type="button" onclick="divi()">Division (/)</button></td>
+            </tr>
+            <tr id="Result"></tr>
+        </tbody>
+    </table>
+    <script src="computer.js"></script>
+
+</body>
+
+</html>
