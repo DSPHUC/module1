@@ -2,17 +2,17 @@ function Change() {
     let Amount = document.getElementById('Amount').value;
     let Form = document.getElementById('from').value;
     let to = document.getElementById('to').value;
-    let result;
+    let Result;
     if (Form == "VND" && to == "USD") {
-        result = "result:" + (Amount / 23000) + " $";   
+        Result = "Result:" + (Amount / 23000) + " $";   
     }
     else if (Form == "USD" && to == "VND") {
-        result = "result:" + (Amount * 23000) + " Đ";
+        result = "Result:" + (Amount * 23000) + " Đ";
     }
     else if (Form == "USD") {
-        result = "result:" + Amount + " $"
+        result = "Result:" + Amount + " $"
     } else {
-        result = "result:" + Amount + " Đ"
+        result = "Result:" + Amount + " Đ"
     }
-    document.getElementById("result").innerHTML = result;
+    document.getElementById("Result").innerHTML = Result;
 }
