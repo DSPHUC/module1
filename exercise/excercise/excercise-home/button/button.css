@@ -1,0 +1,80 @@
+.firt1,
+.secon1:hover {
+    background-color: white;
+    border-color: red;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+
+}
+
+
+.firt2,
+.secon2:hover {
+    background-color: white;
+    border-color: orange;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+
+}
+
+.firt3,
+.secon3:hover {
+    background-color: white;
+    border-color: green;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+
+}
+
+.firt4,
+.secon4:hover {
+    background-color: white;
+    border-color: blue;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+
+}
+
+.secon1:active,
+.firt1:hover {
+    background-color: red;
+    border-color: red;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+
+}
+
+.secon2:active,
+.firt2:hover {
+    background-color: orange;
+    border-color: orange;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+
+}
+
+.secon3:active,
+.firt3:hover {
+    background-color: green;
+    border-color: green;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+
+}
+
+.secon4:active,
+.firt4:hover {
+    background-color: blue;
+    border-color: blue;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+
+}
