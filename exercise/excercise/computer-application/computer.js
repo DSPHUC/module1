@@ -29,4 +29,3 @@ function divi() {
     Result = (num1 / num2).toFixed(2);
     document.getElementById("Result").innerHTML = Result;
 }
-
