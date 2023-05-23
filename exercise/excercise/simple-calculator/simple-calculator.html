@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="4"><input type="text" id="number1"></td>
+            </tr>
+            <tr>
+                <td><button onclick="inputValue(this.value)" id="num2" value="1">1</button></td>
+                <td><button onclick="inputValue(this.value)" id="num2" value="2">2</button></td>
+                <td><button onclick="inputValue(this.value)" id="num2" value="3">3</button></td>
+                <td><button onclick="inputValue(this.value)" id="cong" value="+">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="inputValue(this.value)" id="num2" value="4">4</button></td>
+                <td><button onclick="inputValue(this.value)" id="num2" value="5">5</button></td>
+                <td><button onclick="inputValue(this.value)" id="num2" value="6">6</button></td>
+                <td><button onclick="inputValue(this.value)" id="tru" value="-">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="inputValue(this.value)" id="num2" value="7">7</button></td>
+                <td><button onclick="inputValue(this.value)" id="num2" value="8">8</button></td>
+                <td><button onclick="inputValue(this.value)" id="num2" value="9">9</button></td>
+                <td><button onclick="inputValue(this.value)" id="nhan" value="*">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="xoa()" id="xoa">C</button></td>
+                <td><button onclick="inputValue(this.value)" id="num2" value="0">0</button></td>
+                <td><button onclick="result()" id="result">=</button></td>
+                <td><button onclick="inputValue(this.value)" id="chia" value="/">/</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="simple-calculator.js"></script>
+</body>
+
+</html>
