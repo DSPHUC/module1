@@ -1,0 +1,88 @@
+table{
+    width: 200px;
+    height: 300px;
+    border-collapse: collapse;
+}
+.tdPadding{
+   padding-left: 17px;
+   padding-bottom: 50px;
+   padding-inline-end: 70px;
+}
+.check1 {
+    height: 50px;
+    width: 90px;
+    appearance: none;
+    background: rgb(176, 215, 178);
+    border-radius: 26px;
+    position: absolute;
+}
+
+.check1::before {
+    content: "";
+    height: 44px;
+    width: 44px;
+    position: absolute;
+    background: green;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+}
+.check1:checked{
+    background: blue;
+}
+.check1:checked::before{
+    left: 40px;
+    background:rgb(17, 230, 226) ;
+}
+.check2 {
+    height: 50px;
+    width: 90px;
+    appearance: none;
+    background: rgb(176, 215, 178);
+    border-radius: 26px;
+    position: absolute;
+}
+
+.check2::before {
+    content: "";
+    height: 44px;
+    width: 44px;
+    position: absolute;
+    background: green;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+}
+.check2:checked{
+    background: blue;
+}
+.check2:checked::before{
+    left: 40px;
+    background:rgb(17, 230, 226) ;
+}
+.check3 {
+    height: 50px;
+    width: 90px;
+    appearance: none;
+    background: rgb(176, 215, 178);
+    border-radius: 26px;
+    position: absolute;
+}
+
+.check3::before {
+    content: "";
+    height: 44px;
+    width: 44px;
+    position: absolute;
+    background: green;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+}
+.check3:checked{
+    background: blue;
+}
+.check3:checked::before{
+    left: 40px;
+    background:rgb(17, 230, 226) ;
+}
