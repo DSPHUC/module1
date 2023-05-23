@@ -1,0 +1,17 @@
+#ttlove {
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+#btYes{
+    position:absolute;
+    left: 650px;
+    top: 300px; 
+    font-size: 120%;
+}
+#btNo{
+    position:absolute;
+    left: 720px;
+    top: 300px; 
+    font-size: 120%;
+}
