@@ -1,4 +1,4 @@
-let year = parent(prompt("Year"));
+let year = parseInt(prompt("Year"));
 if (year % 4 == 0) {
     if (year % 100 == 0) {
         if (year % 400 == 0) {
